@@ -1,0 +1,163 @@
+body{
+
+    background-repeat: repeat;
+    background-image: url(image/arriereplan.jpg);
+}
+
+
+
+#titreentreprise{
+    display: flex;
+}
+    
+.entreprise{
+        align-items: end;
+        color: hsl(323, 65%, 68%);
+    }
+    .equipe{
+        text-align: center;
+        color: hsl(323, 65%, 68%);
+    
+    }
+    
+section{display: flex;}
+    
+.bouquets{ display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+section{
+    background-color: #98fbfb;
+    display: flex
+    
+}
+.descriptifentreprise{
+    color: red;
+}
+.bouquets2{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.staff{
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
+    
+    
+}
+.staff_img {
+    height: 175px;
+    width: 200px;
+    
+}
+.carrière{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+ }
+.description{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.mosaique{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+  
+.mosaique img{
+    height: 150px;
+    width: 150px;
+    flex-wrap: wrap
+}
+        
+.mosaique1{
+  display: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+.mosaique2{
+    display: wrap;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+.mosaique3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+.mosaique4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+form{
+    display:flex;
+    align-items: center;
+    margin-top: 90px;
+    flex-direction: column;
+}
+
+
+@media only screen and (max-width: 1000px) and (min-width: 200px){
+    
+    .contenu{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+.bouquets2{
+    display:flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+}
+
+.bouquets{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.article2{
+    display: flex;
+    flex-flow: nowrap column;
+    align-items: center;
+}
+.artcile3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.descriptifentreprise{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+}
+
